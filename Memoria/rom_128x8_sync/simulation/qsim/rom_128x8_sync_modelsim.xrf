@@ -1,7 +1,7 @@
 vendor_name = ModelSim
-source_file = 1, C:/altera/13.1/Memoria/rom_128x8_sync/rom_128x8_sync.vhd
-source_file = 1, C:/altera/13.1/Memoria/rom_128x8_sync/Waveform.vwf
-source_file = 1, C:/altera/13.1/Memoria/rom_128x8_sync/db/rom_128x8_sync.cbx.xml
+source_file = 1, C:/Users/dcast/Documents/GitHub/Digitales_II/Memoria/rom_128x8_sync/rom_128x8_sync.vhd
+source_file = 1, C:/Users/dcast/Documents/GitHub/Digitales_II/Memoria/rom_128x8_sync/Waveform.vwf
+source_file = 1, C:/Users/dcast/Documents/GitHub/Digitales_II/Memoria/rom_128x8_sync/db/rom_128x8_sync.cbx.xml
 source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
 source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
 source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/timing_b.vhd

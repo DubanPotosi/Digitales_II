@@ -7,8 +7,8 @@ vrom_128x8_sync
 Z1 !s100 Um9kCOSjYICG0iN`8J?>N0
 Z2 I4d_kI:`AYL9;nVRc@L40z2
 Z3 V5`iZhg0o;TYTB4D^^nAU_0
-Z4 dC:\altera\13.1\Memoria\rom_128x8_sync\simulation\qsim
-Z5 w1643287430
+Z4 dC:\Users\dcast\Documents\GitHub\Digitales_II\Memoria\rom_128x8_sync\simulation\qsim
+Z5 w1643312345
 Z6 8rom_128x8_sync.vo
 Z7 From_128x8_sync.vo
 L0 31
@@ -19,7 +19,7 @@ Z9 !s90 -work|work|rom_128x8_sync.vo|
 Z10 o-work work -O0
 !i10b 1
 !s85 0
-Z11 !s108 1643287430.717000
+Z11 !s108 1643312345.712000
 Z12 !s107 rom_128x8_sync.vo|
 !s101 -O0
 vrom_128x8_sync_vlg_check_tst
@@ -28,7 +28,7 @@ Z13 !s100 =HJhcGS;[2]8zHePzi9]Y0
 Z14 I5]4GG]hO1n`I20FMNd4G91
 Z15 VD3?^fd0iAe76XCh_aZY1Z0
 R4
-Z16 w1643287429
+Z16 w1643312344
 Z17 8Waveform.vwf.vt
 Z18 FWaveform.vwf.vt
 L0 59
@@ -36,7 +36,7 @@ R8
 r1
 !s85 0
 31
-Z19 !s108 1643287430.925000
+Z19 !s108 1643312345.834000
 Z20 !s107 Waveform.vwf.vt|
 Z21 !s90 -work|work|Waveform.vwf.vt|
 !s101 -O0

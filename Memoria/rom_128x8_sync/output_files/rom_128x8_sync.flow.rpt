@@ -1,5 +1,5 @@
 Flow report for rom_128x8_sync
-Thu Jan 27 07:43:50 2022
+Thu Jan 27 14:39:05 2022
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -40,7 +40,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Flow Summary                                                                    ;
 +------------------------------------+--------------------------------------------+
-; Flow Status                        ; Successful - Thu Jan 27 07:43:50 2022      ;
+; Flow Status                        ; Successful - Thu Jan 27 14:39:05 2022      ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
 ; Revision Name                      ; rom_128x8_sync                             ;
 ; Top-level Entity Name              ; rom_128x8_sync                             ;
@@ -102,7 +102,9 @@ applicable agreement for further details.
 ; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4538 MB             ; 00:00:00                           ;
 ; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4538 MB             ; 00:00:00                           ;
 ; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4538 MB             ; 00:00:00                           ;
-; Total                     ; 00:00:12     ; --                      ; --                  ; 00:00:09                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4538 MB             ; 00:00:00                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4538 MB             ; 00:00:00                           ;
+; Total                     ; 00:00:13     ; --                      ; --                  ; 00:00:09                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -115,6 +117,8 @@ applicable agreement for further details.
 ; Fitter                    ; DESKTOP-Q668T6F  ; Windows 7 ; 6.2        ; x86_64         ;
 ; Assembler                 ; DESKTOP-Q668T6F  ; Windows 7 ; 6.2        ; x86_64         ;
 ; TimeQuest Timing Analyzer ; DESKTOP-Q668T6F  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; DESKTOP-Q668T6F  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; DESKTOP-Q668T6F  ; Windows 7 ; 6.2        ; x86_64         ;
 ; EDA Netlist Writer        ; DESKTOP-Q668T6F  ; Windows 7 ; 6.2        ; x86_64         ;
 ; EDA Netlist Writer        ; DESKTOP-Q668T6F  ; Windows 7 ; 6.2        ; x86_64         ;
 ; EDA Netlist Writer        ; DESKTOP-Q668T6F  ; Windows 7 ; 6.2        ; x86_64         ;
@@ -135,6 +139,8 @@ quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=veri
 quartus_eda --functional=on --flatten_buses=off --simulation=on --tool=modelsim_oem --format=verilog --output_directory=C:/altera/13.1/Memoria/rom_128x8_sync/simulation/qsim/ rom_128x8_sync -c rom_128x8_sync
 quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog rom_128x8_sync -c rom_128x8_sync --vector_source=C:/altera/13.1/Memoria/rom_128x8_sync/Waveform.vwf --testbench_file=C:/altera/13.1/Memoria/rom_128x8_sync/simulation/qsim/Waveform.vwf.vt
 quartus_eda --functional=on --flatten_buses=off --simulation=on --tool=modelsim_oem --format=verilog --output_directory=C:/altera/13.1/Memoria/rom_128x8_sync/simulation/qsim/ rom_128x8_sync -c rom_128x8_sync
+quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog rom_128x8_sync -c rom_128x8_sync --vector_source=C:/Users/dcast/Documents/GitHub/Digitales_II/Memoria/rom_128x8_sync/Waveform.vwf --testbench_file=C:/Users/dcast/Documents/GitHub/Digitales_II/Memoria/rom_128x8_sync/simulation/qsim/Waveform.vwf.vt
+quartus_eda --functional=on --flatten_buses=off --simulation=on --tool=modelsim_oem --format=verilog --output_directory=C:/Users/dcast/Documents/GitHub/Digitales_II/Memoria/rom_128x8_sync/simulation/qsim/ rom_128x8_sync -c rom_128x8_sync
 
 
 

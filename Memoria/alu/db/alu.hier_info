@@ -77,17 +77,17 @@ ALU_Sel[1] => Equal0.IN1
 ALU_Sel[1] => Equal2.IN1
 ALU_Sel[2] => Equal0.IN0
 ALU_Sel[2] => Equal2.IN0
-ALU_Result[0] <= ALU_Result[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
-ALU_Result[1] <= ALU_Result[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
-ALU_Result[2] <= ALU_Result[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
-ALU_Result[3] <= ALU_Result[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
-ALU_Result[4] <= ALU_Result[4]$latch.DB_MAX_OUTPUT_PORT_TYPE
-ALU_Result[5] <= ALU_Result[5]$latch.DB_MAX_OUTPUT_PORT_TYPE
-ALU_Result[6] <= ALU_Result[6]$latch.DB_MAX_OUTPUT_PORT_TYPE
-ALU_Result[7] <= ALU_Result[7]$latch.DB_MAX_OUTPUT_PORT_TYPE
-NZVC[0] <= NZVC[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
-NZVC[1] <= NZVC[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
-NZVC[2] <= NZVC[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
-NZVC[3] <= NZVC[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+ALU_Result[0] << ALU_Result[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+ALU_Result[1] << ALU_Result[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+ALU_Result[2] << ALU_Result[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+ALU_Result[3] << ALU_Result[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+ALU_Result[4] << ALU_Result[4]$latch.DB_MAX_OUTPUT_PORT_TYPE
+ALU_Result[5] << ALU_Result[5]$latch.DB_MAX_OUTPUT_PORT_TYPE
+ALU_Result[6] << ALU_Result[6]$latch.DB_MAX_OUTPUT_PORT_TYPE
+ALU_Result[7] << ALU_Result[7]$latch.DB_MAX_OUTPUT_PORT_TYPE
+NZVC[0] << NZVC[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+NZVC[1] << NZVC[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+NZVC[2] << NZVC[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+NZVC[3] << NZVC[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
 
 

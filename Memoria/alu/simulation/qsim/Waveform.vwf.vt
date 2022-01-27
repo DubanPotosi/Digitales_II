@@ -18,7 +18,7 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "01/27/2022 09:08:26"
+// Generated on "01/27/2022 15:06:18"
                                                                         
 // Verilog Self-Checking Test Bench (with test vectors) for design :    alu
 // 
@@ -379,6 +379,138 @@ alu i1 (
 	.Bus1(Bus1),
 	.NZVC(NZVC)
 );
+// B[ 7 ]
+initial
+begin
+	B[7] = 1'b0;
+	B[7] = #240000 1'b1;
+	B[7] = #240000 1'b0;
+	B[7] = #120000 1'b1;
+	B[7] = #120000 1'b0;
+end 
+// B[ 6 ]
+initial
+begin
+	B[6] = 1'b1;
+	B[6] = #120000 1'b0;
+	B[6] = #360000 1'b1;
+	B[6] = #120000 1'b0;
+	B[6] = #120000 1'b1;
+	B[6] = #120000 1'b0;
+end 
+// B[ 5 ]
+initial
+begin
+	B[5] = 1'b1;
+	B[5] = #600000 1'b0;
+	B[5] = #240000 1'b1;
+	B[5] = #120000 1'b0;
+end 
+// B[ 4 ]
+initial
+begin
+	B[4] = 1'b1;
+	B[4] = #120000 1'b0;
+	B[4] = #360000 1'b1;
+	B[4] = #120000 1'b0;
+	B[4] = #120000 1'b1;
+	B[4] = #120000 1'b0;
+end 
+// B[ 3 ]
+initial
+begin
+	B[3] = 1'b1;
+end 
+// B[ 2 ]
+initial
+begin
+	B[2] = 1'b0;
+	B[2] = #240000 1'b1;
+	B[2] = #240000 1'b0;
+	B[2] = #240000 1'b1;
+	B[2] = #240000 1'b0;
+end 
+// B[ 1 ]
+initial
+begin
+	B[1] = 1'b1;
+	B[1] = #240000 1'b0;
+	B[1] = #240000 1'b1;
+	B[1] = #240000 1'b0;
+end 
+// B[ 0 ]
+initial
+begin
+	B[0] = 1'b0;
+end 
+// Bus1[ 7 ]
+initial
+begin
+	Bus1[7] = 1'b0;
+	Bus1[7] = #240000 1'b1;
+	Bus1[7] = #120000 1'b0;
+	Bus1[7] = #360000 1'b1;
+	Bus1[7] = #120000 1'b0;
+end 
+// Bus1[ 6 ]
+initial
+begin
+	Bus1[6] = 1'b1;
+	Bus1[6] = #240000 1'b0;
+	Bus1[6] = #120000 1'b1;
+	Bus1[6] = #360000 1'b0;
+	Bus1[6] = #120000 1'b1;
+	Bus1[6] = #120000 1'b0;
+end 
+// Bus1[ 5 ]
+initial
+begin
+	Bus1[5] = 1'b0;
+	Bus1[5] = #360000 1'b1;
+	Bus1[5] = #120000 1'b0;
+	Bus1[5] = #360000 1'b1;
+	Bus1[5] = #120000 1'b0;
+end 
+// Bus1[ 4 ]
+initial
+begin
+	Bus1[4] = 1'b1;
+	Bus1[4] = #240000 1'b0;
+	Bus1[4] = #120000 1'b1;
+	Bus1[4] = #360000 1'b0;
+	Bus1[4] = #120000 1'b1;
+	Bus1[4] = #120000 1'b0;
+end 
+// Bus1[ 3 ]
+initial
+begin
+	Bus1[3] = 1'b0;
+	Bus1[3] = #240000 1'b1;
+	Bus1[3] = #120000 1'b0;
+	Bus1[3] = #120000 1'b1;
+	Bus1[3] = #360000 1'b0;
+	Bus1[3] = #120000 1'b1;
+end 
+// Bus1[ 2 ]
+initial
+begin
+	Bus1[2] = 1'b0;
+	Bus1[2] = #480000 1'b1;
+	Bus1[2] = #240000 1'b0;
+end 
+// Bus1[ 1 ]
+initial
+begin
+	Bus1[1] = 1'b1;
+	Bus1[1] = #480000 1'b0;
+	Bus1[1] = #240000 1'b1;
+	Bus1[1] = #240000 1'b0;
+end 
+// Bus1[ 0 ]
+initial
+begin
+	Bus1[0] = 1'b0;
+end 
 // ALU_Sel[ 2 ]
 initial
 begin
@@ -390,151 +522,10 @@ begin
 	ALU_Sel[1] = 1'b0;
 end 
 // ALU_Sel[ 0 ]
-always
+initial
 begin
 	ALU_Sel[0] = 1'b0;
-	ALU_Sel[0] = #500000 1'b1;
-	#500000;
-end 
-// B[ 7 ]
-initial
-begin
-	B[7] = 1'b0;
-end 
-// B[ 6 ]
-initial
-begin
-	B[6] = 1'b1;
-	B[6] = #500000 1'b0;
-end 
-// B[ 5 ]
-initial
-begin
-	B[5] = 1'b1;
-	B[5] = #500000 1'b0;
-end 
-// B[ 4 ]
-initial
-begin
-	B[4] = 1'b0;
-	B[4] = #500000 1'b1;
-end 
-// B[ 3 ]
-initial
-begin
-	B[3] = 1'b0;
-	B[3] = #200000 1'b1;
-	B[3] = #300000 1'b0;
-	B[3] = #350000 1'b1;
-end 
-// B[ 2 ]
-initial
-begin
-	B[2] = 1'b1;
-	B[2] = #200000 1'b0;
-	B[2] = #200000 1'b1;
-	B[2] = #100000 1'b0;
-	B[2] = #150000 1'b1;
-	B[2] = #200000 1'b0;
-end 
-// B[ 1 ]
-initial
-begin
-	repeat(2)
-	begin
-		B[1] = 1'b0;
-		B[1] = #100000 1'b1;
-		# 100000;
-	end
-	B[1] = 1'b0;
-	B[1] = #150000 1'b1;
-	B[1] = #100000 1'b0;
-	B[1] = #100000 1'b1;
-	B[1] = #100000 1'b0;
-	B[1] = #100000 1'b1;
-end 
-// B[ 0 ]
-initial
-begin
-	repeat(4)
-	begin
-		B[0] = 1'b0;
-		B[0] = #50000 1'b1;
-		# 50000;
-	end
-	B[0] = 1'b0;
-	B[0] = #50000 1'b1;
-	B[0] = #100000 1'b0;
-	# 50000;
-	repeat(4)
-	begin
-		B[0] = 1'b1;
-		B[0] = #50000 1'b0;
-		# 50000;
-	end
-end 
-// Bus1[ 7 ]
-initial
-begin
-	Bus1[7] = 1'b0;
-end 
-// Bus1[ 6 ]
-initial
-begin
-	Bus1[6] = 1'b0;
-end 
-// Bus1[ 5 ]
-initial
-begin
-	Bus1[5] = 1'b0;
-	Bus1[5] = #750000 1'b1;
-end 
-// Bus1[ 4 ]
-initial
-begin
-	Bus1[4] = 1'b1;
-	Bus1[4] = #750000 1'b0;
-end 
-// Bus1[ 3 ]
-initial
-begin
-	Bus1[3] = 1'b0;
-	Bus1[3] = #350000 1'b1;
-	Bus1[3] = #400000 1'b0;
-end 
-// Bus1[ 2 ]
-initial
-begin
-	Bus1[2] = 1'b0;
-	# 150000;
-	repeat(2)
-	begin
-		Bus1[2] = 1'b1;
-		Bus1[2] = #200000 1'b0;
-		# 200000;
-	end
-	Bus1[2] = 1'b1;
-end 
-// Bus1[ 1 ]
-initial
-begin
-	Bus1[1] = 1'b0;
-	# 50000;
-	repeat(4)
-	begin
-		Bus1[1] = 1'b1;
-		Bus1[1] = #100000 1'b0;
-		# 100000;
-	end
-	Bus1[1] = 1'b1;
-	Bus1[1] = #100000 1'b0;
-end 
-// Bus1[ 0 ]
-always
-begin
-	Bus1[0] = 1'b1;
-	Bus1[0] = #50000 1'b0;
-	#50000;
+	ALU_Sel[0] = #480000 1'b1;
 end 
 
 alu_vlg_sample_tst tb_sample (

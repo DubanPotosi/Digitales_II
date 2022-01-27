@@ -19,25 +19,30 @@ begin
 		
 		--SUMA--
 		if (ALU_Sel = "000") then 
+		
 		--- Sum Calculation ---
 		Sum_uns := unsigned('0' & B) + unsigned('0' & Bus1);
 		ALU_Result <= std_logic_vector(Sum_uns(7 downto 0));
+		
 		--- Negative Flag (N) ---
 		NZVC(3) <= Sum_uns(7);
+		
 		--- Zero Flag (Z) ---
 		if (Sum_uns(7 downto 0) = x"00") then
 			NZVC(2) <= '1';	
 		else
 			NZVC(2) <= '0';
 		end if;
+		
 		--- Overflow Flag (V) ---
 		if ((B(7)='0' and Bus1(7)='0' and Sum_uns(7)='1') or (B(7)='1' and Bus1(7)='1' and Sum_uns(7)='0')) then
 			NZVC(1) <= '1';
 		else
 			NZVC(1) <= '0';
 		end if;
+		
 		--- Carry Flag (C) ---
-		NZVC(0) <= Sum_uns(7);
+		NZVC(0) <= Sum_uns(8);
 		
 		
 		

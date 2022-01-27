@@ -4,78 +4,78 @@ K3
 cModel Technology
 Z0 dC:\altera\13.1\Memoria\rw_96x8_sync\simulation\qsim
 vrw_96x8_sync
-Z1 I8J?:[A78k?ZoHD_KDhkod0
-Z2 VocZW4R<bKCcH7^EJb1>Qd3
-Z3 dC:\altera\13.1\Memoria\rw_96x8_sync\simulation\qsim
-Z4 w1643269914
-Z5 8rw_96x8_sync.vo
-Z6 Frw_96x8_sync.vo
+Z1 !s100 @aa2bQO5DHFL]_2Ijgmgi3
+Z2 I8J?:[A78k?ZoHD_KDhkod0
+Z3 VocZW4R<bKCcH7^EJb1>Qd3
+Z4 dC:\Users\dcast\Documents\GitHub\Digitales_II\Memoria\rw_96x8_sync\simulation\qsim
+Z5 w1643312261
+Z6 8rw_96x8_sync.vo
+Z7 Frw_96x8_sync.vo
 L0 31
-Z7 OV;L;10.1d;51
+Z8 OV;L;10.1d;51
 r1
 31
-Z8 o-work work -O0
+Z9 !s90 -work|work|rw_96x8_sync.vo|
+Z10 o-work work -O0
 !i10b 1
-Z9 !s100 @aa2bQO5DHFL]_2Ijgmgi3
 !s85 0
-Z10 !s108 1643269916.045000
-Z11 !s107 rw_96x8_sync.vo|
-Z12 !s90 -work|work|rw_96x8_sync.vo|
+Z11 !s108 1643312263.239000
+Z12 !s107 rw_96x8_sync.vo|
 !s101 -O0
 vrw_96x8_sync_vlg_check_tst
 !i10b 1
-!s100 2l1blXd9O48c`=6gZBo;D1
-Ig^>_E>oW]cjYiSFf3f;K10
-V[2G=f]<Rdz`TaeM0E^lb83
-R3
-Z13 w1643269913
-Z14 8Waveform.vwf.vt
-Z15 FWaveform.vwf.vt
+Z13 !s100 2l1blXd9O48c`=6gZBo;D1
+Z14 Ig^>_E>oW]cjYiSFf3f;K10
+Z15 V[2G=f]<Rdz`TaeM0E^lb83
+R4
+Z16 w1643312259
+Z17 8Waveform.vwf.vt
+Z18 FWaveform.vwf.vt
 L0 63
-R7
+R8
 r1
 !s85 0
 31
-Z16 !s108 1643269916.492000
-Z17 !s107 Waveform.vwf.vt|
-Z18 !s90 -work|work|Waveform.vwf.vt|
+Z19 !s108 1643312263.648000
+Z20 !s107 Waveform.vwf.vt|
+Z21 !s90 -work|work|Waveform.vwf.vt|
 !s101 -O0
-R8
+R10
 vrw_96x8_sync_vlg_sample_tst
 !i10b 1
-!s100 JCJa:Y1jnJAjRLJZZHR@01
-InC[J[Xb^[:kez8YidTf@a0
-Vg8GOY9a3JM;iCD>7[h=P30
-R3
-R13
-R14
-R15
-L0 29
-R7
-r1
-!s85 0
-31
+Z22 !s100 JCJa:Y1jnJAjRLJZZHR@01
+Z23 InC[J[Xb^[:kez8YidTf@a0
+Z24 Vg8GOY9a3JM;iCD>7[h=P30
+R4
 R16
 R17
 R18
-!s101 -O0
+L0 29
 R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
 vrw_96x8_sync_vlg_vec_tst
 !i10b 1
-!s100 SC_1SRoDTj3Q5ci@mEOSQ2
-IbFl:Ue=j<;7Xl?i93oS1N3
-VzW2`F7^`z;:WgQ4ZiLKm31
-R3
-R13
-R14
-R15
-L0 283
-R7
-r1
-!s85 0
-31
+Z25 !s100 SC_1SRoDTj3Q5ci@mEOSQ2
+Z26 IbFl:Ue=j<;7Xl?i93oS1N3
+Z27 VzW2`F7^`z;:WgQ4ZiLKm31
+R4
 R16
 R17
 R18
-!s101 -O0
+Z28 L0 283
 R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
